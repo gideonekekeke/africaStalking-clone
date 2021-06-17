@@ -1,0 +1,31 @@
+.ProductHolder {
+  /* height: 100px; */
+  width: 100%;
+  margin-top: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxHolder {
+  /* height: 100px; */
+  width: 200px;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.IconHoder {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: coral;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

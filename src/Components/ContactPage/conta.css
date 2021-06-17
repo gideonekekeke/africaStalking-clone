@@ -1,0 +1,183 @@
+.contactUs3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.contactUscontainer3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  z-index: -20;
+}
+
+.thefirsPart3 {
+  width: 100%;
+  height: 450px;
+  background-image: url("./Image/co.png");
+  background-attachment: scroll;
+  background-size: cover;
+  background-origin: center;
+  object-fit: cover;
+  background-position: center;
+  z-index: -20;
+}
+
+.backGoundOpacity3 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(226, 125, 10, 0.7);
+  opacity: 0.7;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -20;
+}
+
+.getInTouch3 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.getInTouch3 > h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  z-index: -40;
+}
+
+.getInTouch3 > h4 {
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  z-index: 40;
+}
+
+@media screen and (max-width: 375px) {
+  .getInTouch3 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .getInTouch3 > h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    z-index: 40;
+    width: 90%;
+  }
+
+  .theCard3 {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: 10px 10px 10px 10px black;
+    margin-top: -35px;
+    z-index: -1;
+    margin-bottom: 50px;
+    border-radius: 5px;
+  }
+
+  .theCard3 > p {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Poppins;
+    font-size: 14px;
+    margin-top: -20px;
+    text-align: center;
+  }
+}
+
+.theMainPart3 {
+  width: 80%;
+  height: auto;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.theCard3 {
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f3f5fb;
+  box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.35);
+  margin-top: -35px;
+  z-index: 20;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.theLOgoHolder3 {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.theLOgoHolder3 > img {
+  height: 50x;
+  width: 50px;
+}
+.theCard3 > h3 {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+.theCard3 > p {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Poppins;
+  font-size: 14px;
+  margin-top: -20px;
+  text-align: center;
+}
+.theCard3 > button {
+  height: 50px;
+  width: 150px;
+  align-self: center;
+  background-color: rgb(226, 125, 10, 0.7);
+  color: white;
+  border: 0px;
+  outline: none;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: bold;
+}
+.Link {
+  align-self: center;
+  font-weight: bold;
+  font-size: 18px;
+}
